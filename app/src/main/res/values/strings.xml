@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chest Tracker for Clash Royale</string>
+    <string name="title">Chest Tracker</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="chest_loop" translatable="false">sssgssgssssmssgsssgssssgsgssssgssssgssgssssgssgssssGssgsssgssssgsgssssgssssgssgssssmssgssssgssgsssgssssgsgssssgssssgssgssssgssgssssmssgsssgssssgsgssssgssssgssGssssgssgssssgssgsssgssssgsgssssGssssgssgssssmssgssssgssgsssgssssgsgssssGssssgssgs</string>
+    <string name="apply_confirm">Position matched, would you like to save your progress?</string>
+    <string name="overwrite_confirm">This will overwrite your chest progress, are you sure?</string>
+    <string name="confirm_ok">OK</string>
+    <string name="confirm_cancel">Cancel</string>
+
+    <!--<string name="guider" translatable="false">Guider</string>-->
+    <string name="action_fuzzy_off">Exact matching</string>
+    <string name="action_fuzzy_on">Fuzzy matching</string>
+    <string name="action_clear">Clear</string>
+    <string name="guider_helper">The chests of Clash Royale are not random except super magical chests, but follows a fixed cycle of 240 chests. If you know your positon in the rotation, you can predict your next chests.\n\n This app helps you find your position in the rotation and record your progress. When you get a chest, click the corresponding chest button at the bottom to record it. The following chests will be shown when enough chest recorded.</string>
+    <string name="matched">"  Matched:\n\n"</string>
+    <string name="matched_position">Matched position:</string>
+    <string name="matched_position_apply">Apply</string>
+
+    <string name="tracker" translatable="false">Tracker</string>
+    <string name="action_indexes_hide">Hide indexes</string>
+    <string name="action_indexes_show">Show indexes</string>
+    <string name="click_to_confirm">Click any chest to confirm gaining the chest</string>
+    <string name="long_press_to_cancel">Chest tracked, long press to cancel</string>
+
+    <string name="hint" translatable="false">Hint</string>
+    <string name="hint_title">Probable chest type</string>
+</resources>

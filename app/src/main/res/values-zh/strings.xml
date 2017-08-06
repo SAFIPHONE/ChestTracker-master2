@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">皇室战争宝箱追踪</string>
+    <string name="title">宝箱追踪</string>
+
+    <string name="action_settings">设置</string>
+    <string name="apply_confirm">已确定您的宝箱位置，是否保存进度？</string>
+    <string name="overwrite_confirm">将覆盖原有的宝箱进度，确定继续吗？</string>
+    <string name="confirm_ok">确定</string>
+    <string name="confirm_cancel">取消</string>
+
+    <string name="action_fuzzy_off">精确匹配</string>
+    <string name="action_fuzzy_on">模糊匹配</string>
+    <string name="action_clear">清空</string>
+    <string name="guider_helper">皇室战争中的宝箱并不是随机的，而是按照240个宝箱的固定循环生成掉落。超级神奇宝箱会随机替换掉任意的宝箱。如果能确认您在循环中的位置，就可以预测接下来的宝箱掉落。\n\n 本应用帮助您找到您在循环中的位置，并记录宝箱进度。点击下方的宝箱按钮以记录宝箱掉落，当记录的宝箱达到一定数量，将自动匹配宝箱位置，并显示预测的宝箱序列。\n\n暂时不能确定类型的宝箱以问号表示，点击问号可以查看该位置的掉落概率。匹配成功后，已记录的箱子将标示为匹配（绿色）或未匹配（红色）。</string>
+    <string name="matched">匹配:</string>
+    <string name="matched_position">匹配位置:</string>
+    <string name="matched_position_apply">应用</string>
+
+    <string name="action_indexes_hide">隐藏序号</string>
+    <string name="action_indexes_show">显示序号</string>
+    <string name="click_to_confirm">点击任意宝箱以确认获取</string>
+    <string name="long_press_to_cancel">宝箱已记录，长按该宝箱撤销</string>
+
+    <string name="hint_title">可能的掉落</string>
+</resources>

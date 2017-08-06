@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="guider_helper_text_size">16sp</dimen>
+    <dimen name="guider_matched_text_size">16sp</dimen>
+</resources>

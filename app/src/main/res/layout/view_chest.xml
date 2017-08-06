@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:contentDescription="@string/app_name">
+    <ImageView
+        android:id="@+id/chest_image"
+        android:layout_width="@dimen/chest_view_width"
+        android:layout_height="@dimen/chest_view_height"
+        android:padding="0dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"/>
+    <TextView
+        android:id="@+id/chest_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingBottom="@dimen/chest_text_height"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/chest_text_size"
+        android:textAlignment="center"/>
+</FrameLayout>

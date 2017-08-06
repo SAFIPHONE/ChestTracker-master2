@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.darkarmed.chesttrackerforclashroyale"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        dev {}
+        google {}
+        tencent {}
+        qihu360 {}
+        baidu {}
+        xiaomi {}
+        wandoujia {}
+    }
+
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def newApkName
+            //If there's no ZipAlign task it means that our artifact will be unaligned and we need to mark it as such.
+            if (output.zipAlign) {
+                newApkName = "${defaultConfig.applicationId}-${output.baseName}-${variant.versionName}.apk"
+            } else {
+                newApkName = "${defaultConfig.applicationId}-${output.baseName}-${variant.versionName}-unaligned.apk"
+            }
+            output.outputFile = new File(output.outputFile.parent, newApkName)
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'com.android.support:support-v4:23.2.1'
+}

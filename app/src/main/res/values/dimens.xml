@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="chest_view_width">60dp</dimen>
+    <dimen name="chest_view_height">80dp</dimen>
+    <dimen name="chest_text_height">5dp</dimen>
+    <dimen name="chest_text_size">12sp</dimen>
+
+    <dimen name="guider_view_height">380dp</dimen>
+    <dimen name="guider_helper_text_margin">15dp</dimen>
+    <dimen name="guider_helper_text_size">14sp</dimen>
+    <dimen name="guider_matched_text_margin">15dp</dimen>
+    <dimen name="guider_matched_text_size">16sp</dimen>
+    <dimen name="guider_button_margin">20dp</dimen>
+    <dimen name="guider_bottombar_height">100dp</dimen>
+    <dimen name="guider_bottombar_button_margin">5dp</dimen>
+
+    <dimen name="hint_view_padding">20dp</dimen>
+    <dimen name="hint_view_margin">15dp</dimen>
+</resources>
